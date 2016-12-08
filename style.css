@@ -1,0 +1,33 @@
+div, header, footer{
+	border:1px solid #444;
+}
+
+
+nav div{
+	float: right;
+}
+nav img{
+	height: 20px;
+	width: 20px;
+}
+
+nav *{
+	margin: 4px 10px;
+}
+nav div a{
+	vertical-align: 10px;
+	text-decoration: none;	
+	font-size: 12px;
+	font-family: Helvetica, sans-serif;
+}
+
+#profile-pic{
+	border-radius: 20px;
+	border: 1px solid #444;
+	height: 24px;
+	width: 24px;
+}
+
+#search-wrapper{
+	margin-top: 20%;	
+}
