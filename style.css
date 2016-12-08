@@ -1,7 +1,15 @@
-div, header, footer{
-	border:1px solid #444;
+html, body, .wrapper{
+	height:100%;
+	margin: 0;
+	border: none;
+	padding: none;
 }
 
+header{
+	position: fixed;
+	top: 0;
+	right: 0;
+}
 
 nav div{
 	float: right;
@@ -17,7 +25,8 @@ nav *{
 nav div a{
 	vertical-align: 10px;
 	text-decoration: none;	
-	font-size: 12px;
+	font-size: 14px;
+	font-weight: 100;
 	font-family: Helvetica, sans-serif;
 	color: #444;
 }
@@ -67,4 +76,84 @@ nav div a{
 
 #logo #e {
 	color: #db3236;
+}
+
+input[name="search-bar"]{
+	display: block;
+	height: 38px;
+	width: 70%;
+	font-size: 14px;
+	margin: 0 auto;
+	box-shadow: 0px 2px 2px #e6e6e6;
+	border:1px solid #e6e6e6;
+    background-image: url("mic-logo.png");
+    background-repeat: no-repeat;
+    background-position: 96.5% 50%;
+	padding: 2px 12px;
+}
+
+input[name="search-bar"]:hover{
+	box-shadow: 0px 2px 3px 2px #e6e6e6;
+}
+
+#search-container button{
+	color: #757575;
+	background-color: #f2f2f2;
+	height: 36px;
+	width: 130px;
+	margin: 28px 3px;
+	border: none;
+	box-shadow: none;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	border-radius: 2px;
+	border: 1px solid #f2f2f2;
+}
+#search-container button:hover{
+	background-color: #f6f6f6;
+	border: 1px solid #c0c0c0;
+	color: #4d4d4d;
+}
+#bottom-text{
+	font-size: 12px;
+	font-family: helvetica, sans-serif;
+}
+#bottom-text a{
+	color: #3333ff;
+	text-decoration: none;
+}
+#bottom-text a:hover{
+	text-decoration: underline;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	background-color: #f2f2f2;
+	color: #666;
+	width: 100%;
+	height: 38px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+}
+
+footer a{
+	display: inline;
+	font-size: 14px;
+	font-family: "Lato", helvetica, sans-serif;
+	font-weight: 100;
+	margin: 0px 10px;
+	text-decoration: none;
+	color: #808080;
+	vertical-align: center;	
+}
+
+#footer-left{
+	float: left;
+	margin:6px 14px;
+}
+#footer-right{
+	float: right;
+	margin:6px 14px;
 }
