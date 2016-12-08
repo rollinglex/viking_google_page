@@ -19,6 +19,7 @@ nav div a{
 	text-decoration: none;	
 	font-size: 12px;
 	font-family: Helvetica, sans-serif;
+	color: #444;
 }
 
 #profile-pic{
@@ -28,6 +29,42 @@ nav div a{
 	width: 24px;
 }
 
-#search-wrapper{
-	margin-top: 20%;	
+#search-wrapper{	
+	margin: 10% auto auto;
+	width: 50%;
+	text-align: center;
+}
+
+#logo{
+	font-family: 'Poppins', Helvetica, sans-serif;
+	font-size: 84px;
+	align-self: center;
+	display: inline;
+}
+#logo span{
+	display: inline;
+}
+
+#logo #G{
+	color: #4885ed;
+}
+
+#logo #o {
+	color: #db3236;
+}
+
+#logo #o2 {
+	color: #f4c20d;
+}
+
+#logo #g {
+	color: #4885ed;
+}
+
+#logo #l {
+	color: #3cba54;
+}
+
+#logo #e {
+	color: #db3236;
 }
